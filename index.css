@@ -1,0 +1,51 @@
+* {
+    padding: 0%;
+    margin: 0%;
+   
+}
+
+.about {
+    background-image: url(./img/header-illsutration-mobile@2x.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    gap: 1rem;
+
+}
+
+.about h1{
+  color: #172B4D;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  display: flex;
+    /* margin: 0 auto; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about h1 span{
+    color: #36B37E;
+    text-align: center;
+}
+
+.about  p{
+    color: #172B4D;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+}
+
+.about ul {
+    display:flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 1rem;
+}
