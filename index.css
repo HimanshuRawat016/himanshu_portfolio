@@ -49,3 +49,62 @@
     list-style-type: none;
     gap: 1rem;
 }
+
+.projects {
+    display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+
+.projects ul{
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.projects .button {
+   
+    width: 129px;
+    height: 24px;
+}
+
+.projects .cardDetails h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    width: 295px;
+    height: 57px;
+    display: flex;
+    text-align: center;
+}
+
+.projects h3{
+    width: 327px;
+    height: 97px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+.cardDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 8%;
+    border: 1px;
+    align-items: center;
+
+}
+
+.cardDetails img{
+    width: 327px;
+    height: 474px;
+    
+}
+
+.language {
+    padding: 12px 8px;
+    background-color: #EBF0EE;
+    color:#3A4A42;
+}
